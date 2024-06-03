@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    background: linear-gradient(#30142b, #a12727);
+    display: grid;
+    color: white;
+}
+header{
+    background-color: transparent;
+    height: 9vh;
+    margin: 0vw;
+    padding-top: 1vh;
+    border-bottom: 0.2vh black solid;
+    box-shadow: 0 1vw 2vw rgba(0,0,0,.6);
+}
+h2{
+    margin-top: -0.2vh;
+    text-align: center;
+}
+span{
+    margin-left: 3vw;
+    font-weight: bold;
+}
+p{
+    font-weight: bold
+}
+#infoDiv{
+    display: none;  
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    border: 0.1vw solid white;
+    padding: 1vw;
+    z-index: 1;
+    margin-top: -3vh;
+    margin-left: 2.7vw;
+    box-shadow: 0 1vw 2vw rgba(0,0,0,.6);
+}
+main{
+    padding-top: 0vh;
+    margin: 0vw;
+    display: grid;
+    grid-template-columns: 33.5vw 31vw 1fr;
+}
+#wyloguj{
+    float: right;
+    margin-right: 1vw;
+    margin-top: -2.5vh;
+    background-color: transparent;
+    border-radius: 0.313888889vw;
+    border: solid black 0.1255555556vw;
+}
+#wyloguj:hover{
+    background-color: transparent;
+    border: solid 0.1255555556vw red;
+    color: red;
+}
+#sprawdziany{
+    border: solid black 0.0627777778vw;
+    text-align: center;
+    margin-left: 1.255555556vw;
+    height: 50vh;
+    padding-top: 2vh;
+    padding-bottom: -10vh;
+    box-shadow: 0.313888889vw 0.313888889vw lightgray;
+    margin-top: -20vh;
+    margin-bottom: -20vh;
+}
+#stworz{
+    background-color: transparent;
+    border: solid black 0.1255555556vw;
+    border-radius: 0.313888889vw;
+    margin-top: 0.919444445vh;
+}
+#stworz:hover{
+    border: solid black 0.2511111112vw;
+    border-radius: 0.3138888889vw;
+    font-weight: bold;
+}
+label{
+    text-shadow: 0.1883333334vw 0.1883333334vw lightgray;
+}

@@ -1,0 +1,100 @@
+/* 90px - 5.65vw
+90px - 1.655vh */
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    background: linear-gradient(#30142b, #a12727);
+    display: grid;
+    color: white;
+}
+header{
+    background-color: transparent;
+    height: 9vh;
+    margin: 0vw;
+    padding-top: 1vh;
+    border-bottom: 0.2vh black solid;
+    box-shadow: 0 1vw 2vw rgba(0,0,0,.6);
+}
+h2{
+    margin-top: -5px;
+    text-align: center;
+    font-family: Cooper Black;
+}
+span{
+    margin-left: 55px;
+    font-weight: bold;
+}
+p{
+    font-weight: bold
+}
+#infoDiv{
+    display: none;  
+    position: absolute;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+    margin-top: -30px;
+    margin-left: 55px;
+}
+main{
+    padding-top: 0px;
+    margin: 0px;
+    display: grid;
+    
+}
+#powrot{
+    float: right;
+    margin-right: 110px;
+    margin-top: -40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+#powrot:hover{
+    background-color: transparent;
+    border: solid 2px red;
+    color: red;
+}
+#glowne{
+    margin-top: -40vh;
+    height: 100px;
+    
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-bottom: 15vh;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.pytanie{
+    float: left;
+    
+}
+.przycisk{
+    background-color: transparent;
+    border: solid 2px black;
+    color: black;
+    margin-top: 5vh;
+}
+.przycisk:hover{
+    background-color: transparent;
+    border: solid 2px black;
+    color: black;
+    border-radius: 5px;
+    font-size: medium;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}

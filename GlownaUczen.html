@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GlownaUczen.css">
+</head>
+<body>
+    <header>
+        <span id="najedz">O nas</span>
+        <h2>Sprawdziany.pl</h2>
+        <div id="infoDiv">
+            <p>Informacje o twórcach :</p> 
+            <p>Bejgrowicz Mateusz 2TP</p> 
+            <p>Kalinowski Kacper 2TP</p>
+        </div>
+        <button onclick="B()" id="powrot">Powrót</button>
+        
+    </header>
+    
+    <main>
+       
+        <div id="glowne">
+            <h1>Wybierz temat pytań</h1> 
+            <form action="zadania2.php" method="post">
+                <div class="pytanie">
+                    <label for="SQL"><b>SQL</b></label> <br>
+                    <br>
+                    <input type="checkbox" name="sql" id="">
+                </div>
+                <div class="pytanie">
+                    <label for="C++"><b>C++</b></label> <br>
+                    <br>
+                    <input type="checkbox" name="c++" id="">
+                </div>
+                <div class="pytanie">
+                    <label for="PHP"><b>PHP</b></label> <br>
+                    <br>
+                    <input type="checkbox" name="php" id=""> <br>
+                    <input type="submit" value="Rozpocznij test" name="roz">
+                </div>
+                <div class="pytanie">
+                    <label for="HTML"><b>HTML</b></label> <br>
+                    <br>
+                    <input type="checkbox" name="HTML" id="">
+                </div>
+                <div class="pytanie">
+                    <label for="JS"><b>JS</b></label> <br>
+                    <br>
+                    <input type="checkbox" name="js" id=""> 
+                    
+                </div> 
+            </form>
+        </div>
+    </main>
+   
+</body>
+</html>
+
+<script src="GlownaUczen.js"></script>

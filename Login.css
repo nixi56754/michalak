@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#30142b, #a12727);
+    overflow: hidden;
+}
+.formularzLogowania{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25vw;
+    padding: 2.1vw;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 1vw 2vw rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+h2{
+    margin: 0 0 2vw;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.formularzLogowania .uzytkownikDane{
+    position: relative;
+}
+#Login, #Haslo{
+    width: 100%;
+    padding: 0.7vw 0;
+    font-size: 0.8vw;
+    color: #fff;
+    margin-bottom: 1.2vw;
+    border: none;
+    border-bottom: 0.1vw solid #fff;
+    outline: none;
+    background: transparent;
+}
+label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1vw 0;
+    font-size: 0.9vw;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+/* co ma sie dziac po kliknieciu w label */
+input:focus ~ label,
+input:valid ~ label{
+    top: -1.3vw;
+    left: 0;
+    color: #f68e44;
+    font-size: 0.7vw;
+}
+#zaloguj{
+    padding: 0.55vw 1vw;
+    color: #b79726;
+    font-size: 0.85vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 2.5vw;
+    letter-spacing: 0.2vw;
+    text-align: left;
+    background: transparent;
+    border-radius: 0.1vw solid #b79726;
+}
+#Powrot{
+    padding: 0.55vw 1vw;
+    color: #b79726;
+    font-size: 0.85vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 2.5vw;
+    letter-spacing: 0.2vw;
+    text-align: right;
+    background: transparent;
+    border-radius: 0.1vw solid #b79726;
+    margin-left: 4vw;
+}
+p{
+    color: #b79726;
+}

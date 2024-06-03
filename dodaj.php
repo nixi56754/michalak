@@ -2,7 +2,7 @@
 require('dane.php');
 session_start();
 if($_SESSION['zalogowano']=='false'){
-    header('location: startowa.html');
+    header('location: startowa.php');
     exit;
 }
 
